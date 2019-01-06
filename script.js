@@ -6,8 +6,9 @@
 
 let submitButton = document.getElementById('submit-button');
 
-console.log(submitButton);
+// console.log(submitButton);
 
 submitButton.addEventListener("click", (event) => {
-    console.log('Hello')
+    console.log('Hello');
+  alert('yup');
 })
